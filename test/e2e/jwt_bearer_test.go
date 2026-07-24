@@ -11,12 +11,12 @@ import (
 	"strings"
 	"time"
 
-	auth "github.com/formancehq/auth/pkg"
-	"github.com/formancehq/auth/pkg/testserver"
-	"github.com/formancehq/go-libs/v3/logging"
-	"github.com/formancehq/go-libs/v3/testing/platform/pgtesting"
+	auth "github.com/hanzo-fi/auth/pkg"
+	"github.com/hanzo-fi/auth/pkg/testserver"
+	"github.com/hanzo-fi/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/testing/platform/pgtesting"
 
-	. "github.com/formancehq/go-libs/v3/collectionutils"
+	. "github.com/hanzo-fi/go-libs/v3/collectionutils"
 	"github.com/golang-jwt/jwt"
 	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"

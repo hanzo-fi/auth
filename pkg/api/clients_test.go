@@ -2,23 +2,23 @@ package api
 
 import (
 	"context"
-	authlib "github.com/formancehq/go-libs/v3/auth"
+	authlib "github.com/hanzo-fi/go-libs/v3/auth"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 
 	"github.com/go-chi/chi/v5"
 
-	"github.com/formancehq/go-libs/v3/bun/bundebug"
+	"github.com/hanzo-fi/go-libs/v3/bun/bundebug"
 
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 
-	"github.com/formancehq/go-libs/v3/bun/bunconnect"
+	"github.com/hanzo-fi/go-libs/v3/bun/bunconnect"
 	"github.com/uptrace/bun"
 
-	auth "github.com/formancehq/auth/pkg"
-	"github.com/formancehq/auth/pkg/storage/sqlstorage"
-	"github.com/formancehq/go-libs/v3/collectionutils"
+	auth "github.com/hanzo-fi/auth/pkg"
+	"github.com/hanzo-fi/auth/pkg/storage/sqlstorage"
+	"github.com/hanzo-fi/go-libs/v3/collectionutils"
 	"github.com/stretchr/testify/require"
 )
 

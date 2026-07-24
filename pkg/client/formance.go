@@ -5,10 +5,10 @@ package client
 import (
 	"context"
 	"fmt"
-	"github.com/formancehq/auth/pkg/client/internal/hooks"
-	"github.com/formancehq/auth/pkg/client/internal/utils"
-	"github.com/formancehq/auth/pkg/client/models/components"
-	"github.com/formancehq/auth/pkg/client/retry"
+	"github.com/hanzo-fi/auth/pkg/client/internal/hooks"
+	"github.com/hanzo-fi/auth/pkg/client/internal/utils"
+	"github.com/hanzo-fi/auth/pkg/client/models/components"
+	"github.com/hanzo-fi/auth/pkg/client/retry"
 	"net/http"
 	"time"
 )
@@ -145,7 +145,7 @@ func New(opts ...SDKOption) *Formance {
 			OpenAPIDocVersion: "0.1.0",
 			SDKVersion:        "0.7.2",
 			GenVersion:        "2.384.1",
-			UserAgent:         "speakeasy-sdk/go 0.7.2 2.384.1 0.1.0 github.com/formancehq/auth/pkg/client",
+			UserAgent:         "speakeasy-sdk/go 0.7.2 2.384.1 0.1.0 github.com/hanzo-fi/auth/pkg/client",
 			Hooks:             hooks.New(),
 		},
 	}

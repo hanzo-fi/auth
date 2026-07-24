@@ -1,6 +1,6 @@
 package main
 
-import "github.com/formancehq/auth/cmd"
+import "github.com/hanzo-fi/auth/cmd"
 
 func main() {
 	cmd.Execute()

@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
-	"github.com/formancehq/auth/pkg/client/models/components"
+	"github.com/hanzo-fi/auth/pkg/client/models/components"
 	"io"
 	"net/http"
 	"net/url"

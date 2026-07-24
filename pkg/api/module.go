@@ -6,14 +6,14 @@ import (
 	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/go-chi/chi/v5"
 
-	"github.com/formancehq/go-libs/v3/service"
-	"github.com/formancehq/go-libs/v5/pkg/audit/httpaudit"
+	"github.com/hanzo-fi/go-libs/v3/service"
+	"github.com/hanzo-fi/go-libs/v5/pkg/audit/httpaudit"
 
-	"github.com/formancehq/go-libs/v3/api"
-	"github.com/formancehq/go-libs/v3/health"
-	"github.com/formancehq/go-libs/v3/httpserver"
-	"github.com/formancehq/go-libs/v3/logging"
-	authoidc "github.com/formancehq/auth/pkg/oidc"
+	"github.com/hanzo-fi/go-libs/v3/api"
+	"github.com/hanzo-fi/go-libs/v3/health"
+	"github.com/hanzo-fi/go-libs/v3/httpserver"
+	"github.com/hanzo-fi/go-libs/v3/logging"
+	authoidc "github.com/hanzo-fi/auth/pkg/oidc"
 	"github.com/zitadel/oidc/v2/pkg/op"
 	"go.uber.org/fx"
 )

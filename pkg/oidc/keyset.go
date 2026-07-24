@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/formancehq/auth/pkg/delegatedauth"
+	"github.com/hanzo-fi/auth/pkg/delegatedauth"
 	"github.com/zitadel/oidc/v2/pkg/client"
 	"gopkg.in/go-jose/go-jose.v2"
 )

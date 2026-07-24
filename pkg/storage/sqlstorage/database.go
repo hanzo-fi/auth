@@ -3,8 +3,8 @@ package sqlstorage
 import (
 	"context"
 
-	auth "github.com/formancehq/auth/pkg"
-	"github.com/formancehq/go-libs/v3/migrations"
+	auth "github.com/hanzo-fi/auth/pkg"
+	"github.com/hanzo-fi/go-libs/v3/migrations"
 	"github.com/uptrace/bun"
 )
 

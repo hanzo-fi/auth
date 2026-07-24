@@ -1,7 +1,7 @@
 package testserver
 
 import (
-	"github.com/formancehq/go-libs/v3/testing/deferred"
+	"github.com/hanzo-fi/go-libs/v3/testing/deferred"
 	ginkgo "github.com/onsi/ginkgo/v2"
 )
 

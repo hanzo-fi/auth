@@ -4,8 +4,8 @@ package operations
 
 import (
 	"errors"
-	"github.com/formancehq/auth/pkg/client/internal/utils"
-	"github.com/formancehq/auth/pkg/client/retry"
+	"github.com/hanzo-fi/auth/pkg/client/internal/utils"
+	"github.com/hanzo-fi/auth/pkg/client/retry"
 	"time"
 )
 

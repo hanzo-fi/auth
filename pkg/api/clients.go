@@ -1,15 +1,15 @@
 package api
 
 import (
-	authlib "github.com/formancehq/go-libs/v3/auth"
+	authlib "github.com/hanzo-fi/go-libs/v3/auth"
 	"net/http"
 
 	"github.com/go-chi/chi/v5"
 
 	"github.com/uptrace/bun"
 
-	auth "github.com/formancehq/auth/pkg"
-	_ "github.com/formancehq/go-libs/v3/api"
+	auth "github.com/hanzo-fi/auth/pkg"
+	_ "github.com/hanzo-fi/go-libs/v3/api"
 )
 
 func addClientRoutes(db *bun.DB, r chi.Router, authenticator authlib.Authenticator) {

@@ -9,8 +9,8 @@ import (
 
 	"gopkg.in/go-jose/go-jose.v2"
 
-	auth "github.com/formancehq/auth/pkg"
-	"github.com/formancehq/auth/pkg/delegatedauth"
+	auth "github.com/hanzo-fi/auth/pkg"
+	"github.com/hanzo-fi/auth/pkg/delegatedauth"
 	"github.com/zitadel/oidc/v2/pkg/client/rp"
 	"github.com/zitadel/oidc/v2/pkg/op"
 	"go.uber.org/fx"

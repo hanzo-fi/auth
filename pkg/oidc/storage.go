@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	auth "github.com/formancehq/auth/pkg"
-	"github.com/formancehq/auth/pkg/storage"
+	auth "github.com/hanzo-fi/auth/pkg"
+	"github.com/hanzo-fi/auth/pkg/storage"
 	"github.com/google/uuid"
 	"github.com/pkg/errors"
 	"github.com/zitadel/oidc/v2/pkg/client/rp"

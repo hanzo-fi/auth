@@ -15,18 +15,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/formancehq/go-libs/v3/bun/bundebug"
+	"github.com/hanzo-fi/go-libs/v3/bun/bundebug"
 	"github.com/uptrace/bun"
 
-	"github.com/formancehq/go-libs/v3/logging"
+	"github.com/hanzo-fi/go-libs/v3/logging"
 	"github.com/go-chi/chi/v5"
 
-	"github.com/formancehq/go-libs/v3/bun/bunconnect"
+	"github.com/hanzo-fi/go-libs/v3/bun/bunconnect"
 
-	auth "github.com/formancehq/auth/pkg"
-	"github.com/formancehq/auth/pkg/delegatedauth"
-	"github.com/formancehq/auth/pkg/oidc"
-	"github.com/formancehq/auth/pkg/storage/sqlstorage"
+	auth "github.com/hanzo-fi/auth/pkg"
+	"github.com/hanzo-fi/auth/pkg/delegatedauth"
+	"github.com/hanzo-fi/auth/pkg/oidc"
+	"github.com/hanzo-fi/auth/pkg/storage/sqlstorage"
 	"github.com/golang-jwt/jwt"
 	"github.com/oauth2-proxy/mockoidc"
 	"github.com/stretchr/testify/require"

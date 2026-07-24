@@ -3,7 +3,7 @@ package oidc
 import (
 	"time"
 
-	"github.com/formancehq/auth/pkg/delegatedauth"
+	"github.com/hanzo-fi/auth/pkg/delegatedauth"
 	"github.com/zitadel/oidc/v2/pkg/client/rp"
 	"github.com/zitadel/oidc/v2/pkg/oidc"
 	"github.com/zitadel/oidc/v2/pkg/op"

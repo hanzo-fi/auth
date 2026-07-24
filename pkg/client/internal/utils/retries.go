@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/formancehq/auth/pkg/client/retry"
+	"github.com/hanzo-fi/auth/pkg/client/retry"
 	"net/http"
 	"net/url"
 	"strconv"

@@ -3,7 +3,7 @@
 package operations
 
 import (
-	"github.com/formancehq/auth/pkg/client/models/components"
+	"github.com/hanzo-fi/auth/pkg/client/models/components"
 )
 
 type CreateClientResponse struct {

@@ -3,7 +3,7 @@
 package components
 
 import (
-	"github.com/formancehq/auth/pkg/client/internal/utils"
+	"github.com/hanzo-fi/auth/pkg/client/internal/utils"
 )
 
 type Security struct {

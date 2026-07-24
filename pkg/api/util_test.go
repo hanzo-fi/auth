@@ -7,7 +7,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/formancehq/go-libs/v3/api"
+	"github.com/hanzo-fi/go-libs/v3/api"
 	"github.com/stretchr/testify/require"
 )
 

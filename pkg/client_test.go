@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	auth "github.com/formancehq/auth/pkg"
+	auth "github.com/hanzo-fi/auth/pkg"
 	"github.com/stretchr/testify/require"
 )
 

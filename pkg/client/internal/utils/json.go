@@ -13,7 +13,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/formancehq/auth/pkg/client/types"
+	"github.com/hanzo-fi/auth/pkg/client/types"
 
 	"github.com/ericlagergren/decimal"
 )
